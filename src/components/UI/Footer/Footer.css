@@ -1,0 +1,35 @@
+.container {
+  height: 100px;
+}
+.markk-footer {
+  margin: 5px;
+  float: right;
+}
+.markk-footer a {
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.markk-footer a:hover {
+  opacity: 0.6;
+}
+.socialIcon {
+    float: right;
+    transform: translate(-105%,150%);
+}
+.socialIcon img {
+    width: 20px;
+    margin-left: 10px;
+    height: 20px;
+}
+@media screen and (max-width:767px){
+  .markk-footer {
+    float: left;
+    margin-left: -10px;
+  }
+  .socialIcon {
+    transform: translate(0,0);
+    float: left;
+    margin-top:5px;
+  }
+}
